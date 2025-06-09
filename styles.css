@@ -4,11 +4,16 @@
 .holder{
 	width: 200px;
 	height: 200px;
+	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
+	gap: 1;
+	border: 1px solid black;
 }
-
 .item {
-  background-color: tomato;
-  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border: 1px solid #000; /* Optional: outline for each box */
 }
